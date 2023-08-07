@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/photo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/tonystark"
+            android:layout_margin="20dp"
+
+            />
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TONY STARK"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/photo"
+            android:layout_alignTop="@id/photo"
+            />
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="vaibhavastro@abc.com"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/photo"
+            android:layout_below="@id/name"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8505983900"
+            android:layout_toRightOf="@id/photo"
+            android:layout_below="@id/email"
+            android:layout_marginTop="20dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/photo"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="20dp"
+
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/hulk" />
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HULK"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_toRightOf="@id/photo"
+                android:layout_alignTop="@id/photo"
+                />
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="vaibhavastro@abc.com"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_toRightOf="@id/photo"
+                android:layout_below="@id/name"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8505983900"
+                android:layout_toRightOf="@id/photo"
+                android:layout_below="@id/email"
+                android:layout_marginTop="20dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/photo"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/elvis"
+                android:layout_margin="20dp"
+
+                />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/photo"
+                android:layout_marginLeft="21dp"
+                android:layout_marginTop="3dp"
+                android:layout_toRightOf="@id/photo"
+                android:text="ELVIS"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="vaibhavastro@abc.com"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_toRightOf="@id/photo"
+                android:layout_below="@id/name"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8505983900"
+                android:layout_toRightOf="@id/photo"
+                android:layout_below="@id/email"
+                android:layout_marginTop="20dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/photo"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/panther"
+                android:layout_margin="20dp"
+
+                />
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PANTHER"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_toRightOf="@id/photo"
+                android:layout_alignTop="@id/photo"
+                />
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="vaibhavastro@abc.com"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_toRightOf="@id/photo"
+                android:layout_below="@id/name"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8505983900"
+                android:layout_toRightOf="@id/photo"
+                android:layout_below="@id/email"
+                android:layout_marginTop="20dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/photo"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/thor"
+                android:layout_margin="20dp"
+
+                />
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="THOR"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_toRightOf="@id/photo"
+                android:layout_alignTop="@id/photo"
+                />
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="vaibhavastro@abc.com"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_toRightOf="@id/photo"
+                android:layout_below="@id/name"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8505983900"
+                android:layout_toRightOf="@id/photo"
+                android:layout_below="@id/email"
+                android:layout_marginTop="20dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/typemessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="25dp"
+                android:backgroundTint="@color/white"
+                android:hint="@string/type_message_for_avenger"
+                android:inputType="text"
+                android:textColor="@color/red"
+                android:textColorHint="@color/red" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/sendbutton"
+                android:layout_centerHorizontal="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="send"
+                android:textSize="25sp"
+                android:layout_below="@id/typemessage"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/white"
+                android:background="#43A047"
+                android:layout_marginLeft="60dp"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/logoutbutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FDD835"
+                android:textSize="25sp"
+                android:text="log out"
+                android:layout_below="@+id/sendbutton"
+                android:textColor="@color/black"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="200dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

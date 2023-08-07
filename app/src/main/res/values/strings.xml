@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">vaibhav</string>
+    <string name="new_app_name">AVENGERS</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="log_in">LOG IN</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="type_your_message_here">Type your message here</string>
+    <string name="preference_file_name">Avenger preference</string>
+    <string name="type_message_for_avenger">Type_message_For_Avenger</string>
+</resources>
